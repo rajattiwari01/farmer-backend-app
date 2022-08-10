@@ -40,7 +40,11 @@ On the running server:
         
 - to logout a user
   - localhost:8000/api/logout/
-
+  
+- to view all data
+  - localhost:8000/api/admin/
+       => login using the user
+       
 ## API Call examples:
 
 - `curl -X POST http://localhost:8000/api/addUser/ -d "email=test@test.com&password=abcd123&username=test"`
